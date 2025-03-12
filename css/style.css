@@ -1,0 +1,197 @@
+/*===== variables =====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* animation: transitionIn  2.75s; */
+}
+
+/* navbar */
+
+/* main-container */
+#h-main-container{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    position: fixed;
+  }
+
+
+  
+/* second container */
+  .nav {
+    min-height: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+   
+  }
+
+/* navbar content */
+  #nc{
+    display: flex;
+    align-items: center;
+    min-height: 5vh;
+  }
+
+  #laptop img{
+    height: 30px;
+    width: 30px;
+  }
+
+
+
+
+  #name{
+    color: #3B117B;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-left: 1rem;
+  }
+
+
+  .nav-menu ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-menu ul li{
+    list-style: none;
+    padding-left: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .nav-menu ul li a{
+    text-decoration: none;
+    color: #3B117B;
+  }
+
+/* section1 */
+  #main-attraction{
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1 1 20rem;
+}
+
+
+#intro{
+    margin-top: 20rem;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+    color: #3B117B;
+}
+
+#intro h1{
+    font-size: 5rem;
+    font-weight: 100px;
+}
+
+#intro button{
+
+    text-decoration: none;
+    background-color: hsl(264, 98%, 66%);
+    color: white;
+    padding: 2rem 4rem  2rem 4rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-right: 25rem;
+    text-align:justify;
+    font-size: 1.5rem;
+    border: none;
+}
+
+
+#positioning{
+    margin-top: 10rem;
+    /* background-color:red; */
+    height: 800px;
+    overflow: hidden;
+}
+
+#positioning img{
+    position:static;
+    height: 500px;
+    width: 500px;
+}
+
+#anime{
+    position: relative;
+    top: -300px; /* Adjust this value as needed */
+}
+
+
+
+/* section2 */
+#work{
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+}
+
+
+/* footer */
+#footer{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+#icon{
+    width: 90%;
+    min-height: 10vh;
+}
+
+#icon ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    list-style: none;
+}
+
+.content{
+    margin-top: 2.5rem;
+}
+
+.fa-brands{
+    color: black;
+    font-size: 2rem;
+}
+
+.fa-github{
+    padding-left: 5rem;
+
+}
+
+.fa-linkedin{
+    padding-left: 5rem;
+
+}
+
+.fa-facebook{
+    padding-left: 5rem;
+}
