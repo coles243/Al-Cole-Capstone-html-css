@@ -93,9 +93,13 @@ body {
     border-bottom: 1px solid #3B117B;
   }
 
+
+
+
+/* main html page */
 /* section1 */
   #main-attraction{
-    min-height: 50vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -161,6 +165,86 @@ body {
 }
 
 
+/* Media query for screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+  #main-attraction {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #intro {
+      margin-top: 10rem;
+      height: auto;
+      width: 80%;
+      text-align: center;
+  }
+
+  #intro h1 {
+      font-size: 4rem;
+  }
+
+  #intro button {
+      margin-right: 0;
+      margin-top: 2rem;
+  }
+
+  #positioning {
+      margin-top: 5rem;
+      height: auto;
+  }
+
+  #positioning img {
+      height: 300px;
+      width: 300px;
+  }
+
+  #anime {
+      top: -150px;
+  }
+}
+
+/* Media query for screens with a maximum width of 725px */
+@media (max-width: 725px) {
+  #main-attraction {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #intro {
+      margin-top: 5rem;
+      height: auto;
+      width: 90%;
+      text-align: center;
+  }
+
+  #intro h1 {
+      font-size: 3rem;
+  }
+
+  #intro button {
+      margin-right: 0;
+      margin-top: 1rem;
+  }
+
+  #positioning {
+      margin-top: 2rem;
+      height: auto;
+  }
+
+  #positioning img {
+      height: 200px;
+      width: 200px;
+  }
+
+  #anime {
+      top: -100px;
+  }
+}
+
+
+
+
+
 /* about me */
 #aboutme{
   min-height: 90vh;
@@ -209,7 +293,37 @@ body {
 }
 
 
-/* section2 */
+
+/* Media Queries  for about me*/
+@media (max-width: 1024px) {
+  #info h2 {
+    width: 40%;
+    margin-left: 25rem;
+  }
+
+  .content {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 725px) {
+  #info {
+    font-size: 1.5rem;
+  }
+
+  #info h2 {
+    width: 60%;
+    margin-left: 0;
+  }
+
+  .content {
+    margin-top: 5rem;
+  }
+}
+
+
+
+/* cards */
 #cards{
   min-height: 90vh;
   display: flex;
@@ -292,6 +406,23 @@ min-height: 10vh;
   color: #000;
   
 }
+
+/* media for cards */
+
+@media(max-width:1075px){
+  #cards{
+    flex-direction: column;
+    min-height: 100vh;
+
+  }
+  #card{
+    margin-top: 15rem;
+  }
+
+
+}
+
+
 
 
 /* contact */
